@@ -54,3 +54,12 @@ function getProperty(obj, key) {
 function addProperty(obj, key) {
   return obj.myProperty = true;
 }
+
+// 7. removeProperty
+// Write a function called "removeProperty".
+// Given an object and a key, "removeProperty" removes the given key from the given object.
+
+
+function removeProperty(obj, key) {
+  delete obj[key];
+}
