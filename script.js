@@ -102,3 +102,12 @@ function getLengthOfWord(word) {
 function getLengthOfTwoWords(word1, word2) {
   return word1.length + word2.length;
 }
+
+// 12. isGreaterThan10
+// Write a function called "isGreaterThanTen".
+// Given a number, "isGreaterThanTen" returns whether it is greater than 10.
+
+function isGreaterThanTen(num) {
+  return num > 10 ? true : false;
+}
+
