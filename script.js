@@ -111,3 +111,10 @@ function isGreaterThanTen(num) {
   return num > 10 ? true : false;
 }
 
+// 13. isLessThan30
+// Write a function called "isLessThan30".
+// Given a number, "isLessThan30" returns whether the given number is less than 30.
+
+function isLessThan30(num) {
+  return num < 30 ? true: false;
+}
