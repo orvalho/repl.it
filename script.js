@@ -94,3 +94,11 @@ function getFullName(firstName, lastName) {
 function getLengthOfWord(word) {
   return word.length;
 }
+
+// 11. getLengthOfTwoWords
+// Write a function called "getLengthOfTwoWords".
+// Given 2 words, "getLengthOfTwoWords" returns the sum of their lengths.
+
+function getLengthOfTwoWords(word1, word2) {
+  return word1.length + word2.length;
+}
