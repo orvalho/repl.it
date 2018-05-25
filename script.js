@@ -134,3 +134,11 @@ function isLessThan(num1, num2) {
 function isGreaterThan(num1, num2) {
   return num2 > num1 ? true : false;
 }
+
+// 16. isEqualTo
+// Write a function called "isEqualTo".
+// Given 2 numbers, "isEqualTo" returns whether num2 is equal to num1.
+
+function isEqualTo(num1, num2) {
+  return num1 === num2 ? true : false;
+}
