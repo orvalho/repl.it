@@ -126,3 +126,11 @@ function isLessThan30(num) {
 function isLessThan(num1, num2) {
   return num2 < num1 ? true : false;
 }
+
+// 15. isGreaterThan
+// Write a function called "isGreaterThan".
+// Given 2 numbers, "isGreaterThan" returns whether num2 is greater than num1.
+
+function isGreaterThan(num1, num2) {
+  return num2 > num1 ? true : false;
+}
