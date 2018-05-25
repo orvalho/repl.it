@@ -150,3 +150,11 @@ function isEqualTo(num1, num2) {
 function isEven(num) {
   return num % 2 === 0 ? true : false;
 }
+
+// 18. isOdd
+// Write a function called "isOdd".
+// Given a number, "isOdd" returns whether the given number is odd.
+
+function isOdd(num) {
+  return num % 2 !== 0 ? true : false;
+}
