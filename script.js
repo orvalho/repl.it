@@ -142,3 +142,11 @@ function isGreaterThan(num1, num2) {
 function isEqualTo(num1, num2) {
   return num1 === num2 ? true : false;
 }
+
+// 17. isEven
+// Write a function called "isEven".
+// Given a number, "isEven" returns whether it is even.
+
+function isEven(num) {
+  return num % 2 === 0 ? true : false;
+}
