@@ -303,3 +303,13 @@ function isPersonOldEnoughToDrive(person) {
 function isPersonOldEnoughToVote(person) {
   return person.age >= 18 ? true : false;
 }
+
+// 35. isPersonOldEnoughToDrink
+// Write a function called "isPersonOldEnoughToDrink".
+// Given a "person" object, that contains an "age" property, "isPersonOldEnoughToDrink" returns whether
+// the given person is old enough to drink.
+// Notes:* The legal drinking age in the United States is 21.
+
+function isPersonOldEnoughToDrink(person) {
+  return person.age >= 21 ? true : false;
+}
