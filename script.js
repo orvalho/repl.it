@@ -238,3 +238,11 @@ function computeAreaOfATriangle(base, height) {
 function cube(num) {
   return Math.pow(num, 3);
 }
+
+// 28. square
+// Write a function called "square".
+// Given a number, "square" should return the square of the given number.
+
+function square(num) {
+  return Math.pow(num, 2);
+}
