@@ -190,3 +190,11 @@ function isEitherEven(num1, num2) {
     return false;
   }
 }
+
+// 22. isOddLength
+// Write a function called "isOddLength".
+// Given a word, "isOddLength" returns whether the length of the given word is odd.
+
+function isOddLength(word) {
+  return word.length % 2 !== 0 ? true : false;
+}
