@@ -222,3 +222,11 @@ function isEvenAndGreaterThanTen(num) {
 function average(num1, num2) {
   return (num1 + num2) / 2;
 }
+
+// 26. computeAreaOfATriangle
+// Write a function called "computeAreaOfATriangle".
+// Given the base and height of a triangle, "computeAreaOfATriangle" returns its area.
+
+function computeAreaOfATriangle(base, height) {
+  return 1/2 * base * height;
+}
