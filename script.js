@@ -178,3 +178,15 @@ function areBothOdd(num1, num2) {
     return false;
   }
 }
+
+// 21. isEitherEven
+// Write a function called "isEitherEven".
+// Given two numbers, "isEitherEven" returns whether or not either one of the given numbers is even.
+
+function isEitherEven(num1, num2) {
+  if (num1 % 2 === 0 || num2 % 2 === 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
