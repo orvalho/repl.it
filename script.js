@@ -254,3 +254,12 @@ function square(num) {
 function computeAverageLengthOfWords(word1, word2) {
   return (word1.length + word2.length) / 2;
 }
+
+// 30. addFullNameProperty
+// Write a function called "addFullNameProperty".
+// Given an object that has a "firstName" property and a "lastName" property, "addFullNameProperty" returns
+// a "fullName" property whose value is a string with the first name and last name separated by a space.
+
+function addFullNameProperty(obj) {
+  obj.fullName = obj.firstName + ' ' + obj.lastName;
+}
