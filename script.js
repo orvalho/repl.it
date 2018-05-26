@@ -230,3 +230,11 @@ function average(num1, num2) {
 function computeAreaOfATriangle(base, height) {
   return 1/2 * base * height;
 }
+
+// 27. cube
+// Write a function called "cube".
+// Given a number, "cube" returns the cube of that number.
+
+function cube(num) {
+  return Math.pow(num, 3);
+}
