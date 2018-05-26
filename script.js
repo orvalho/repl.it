@@ -198,3 +198,11 @@ function isEitherEven(num1, num2) {
 function isOddLength(word) {
   return word.length % 2 !== 0 ? true : false;
 }
+
+// 23. isEvenLength
+// Write a function called "isEvenLength".
+// Given a word, "isEvenLength" returns whether the length of the word is even.
+
+function isEvenLength(word) {
+  return word.length % 2 === 0 ? true: false;
+}
