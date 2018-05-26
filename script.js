@@ -214,3 +214,11 @@ function isEvenLength(word) {
 function isEvenAndGreaterThanTen(num) {
   return num % 2 === 0 && num > 10 ? true : false;
 }
+
+// 25. average
+// Write a function called "average".
+// Given two numbers, "average" returns their average.
+
+function average(num1, num2) {
+  return (num1 + num2) / 2;
+}
