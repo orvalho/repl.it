@@ -351,3 +351,11 @@ function addToBack(arr, element) {
 function computeAreaOfARectangle(length, width) {
   return length * width;
 }
+
+// 40. computePerimeterOfARectangle
+// Write a function called "computePerimeterOfARectangle".
+// Given a length and a width describing a rectangle, "computePerimeterOfARectangle" returns its perimter.
+
+function computePerimeterOfARectangle(length, width) {
+  return (length + width) * 2;
+}
