@@ -423,3 +423,11 @@ function doubleSquareRootOf(num) {
 function getLengthOfThreeWords(word1, word2, word3) {
   return word1.length + word2.length + word3.length;
 }
+
+// 49. joinArrays
+// Write a function called "joinArrays".
+// Given two arrays, "joinArrays" returns an array with the elements of "arr1" in order, followed by the elements in "arr2". 
+
+function joinArrays(arr1, arr2) {
+  return arr1.concat(arr2);
+}
