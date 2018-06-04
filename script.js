@@ -393,9 +393,17 @@ function computeAreaOfACircle(radius) {
 }
 
 // 45. computePower
-//Write a function called "computePower".
+// Write a function called "computePower".
 // Given a number and an exponent, "computePower" returns the given number, raised to the given exponent. 
 
 function computePower(num, exponent) {
   return Math.pow(num, exponent);
+}
+
+// 46. computeSquareRoot
+// Write a function called "computeSquareRoot".
+// Given a number, "computeSquareRoot" returns its square root.
+
+function computeSquareRoot(num) {
+  return Math.sqrt(num);
 }
