@@ -407,3 +407,11 @@ function computePower(num, exponent) {
 function computeSquareRoot(num) {
   return Math.sqrt(num);
 }
+
+// 47. doubleSquareRootOf
+// Write a function called "doubleSquareRootOf".
+// Given a number, "doubleSquareRootOf" returns double its square root.
+
+function doubleSquareRootOf(num) {
+  return Math.sqrt(num) * 2;
+}
