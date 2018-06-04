@@ -359,3 +359,11 @@ function computeAreaOfARectangle(length, width) {
 function computePerimeterOfARectangle(length, width) {
   return (length + width) * 2;
 }
+
+// 41. computePerimeterOfATriangle
+// Write a function called "computePerimeterOfATriangle".
+// Given 3 sides describing a triangle, "computePerimeterOfATriangle" returns its perimter.
+
+function computePerimeterOfATriangle(side1, side2, side3) {
+  return side1 + side2 + side3;
+}
