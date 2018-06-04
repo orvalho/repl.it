@@ -383,3 +383,11 @@ function computeTripledAreaOfARectangle(length, width) {
 function computePerimeterOfACircle(radius) {
   return 2 * Math.PI * radius;
 }
+
+// 44. computeAreaOfACircle
+// Write a function called "computeAreaOfACircle".
+// Given the radius of a circle, "computeAreaOfACircle" returns its area.
+
+function computeAreaOfACircle(radius) {
+  return Math.PI * radius * radius;
+}
