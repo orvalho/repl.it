@@ -391,3 +391,11 @@ function computePerimeterOfACircle(radius) {
 function computeAreaOfACircle(radius) {
   return Math.PI * radius * radius;
 }
+
+// 45. computePower
+//Write a function called "computePower".
+// Given a number and an exponent, "computePower" returns the given number, raised to the given exponent. 
+
+function computePower(num, exponent) {
+  return Math.pow(num, exponent);
+}
