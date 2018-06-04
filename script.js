@@ -375,3 +375,11 @@ function computePerimeterOfATriangle(side1, side2, side3) {
 function computeTripledAreaOfARectangle(length, width) {
   return length * width * 3;
 }
+
+// 43. computePerimeterOfACircle
+// Write a function called "computePerimeterOfACircle".
+// Given the radius of a circle, "computePerimeterOfACircle" returns its perimeter.
+
+function computePerimeterOfACircle(radius) {
+  return 2 * Math.PI * radius;
+}
