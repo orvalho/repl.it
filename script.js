@@ -439,3 +439,13 @@ function joinArrays(arr1, arr2) {
 function getElementsAfter(array, n) {
   return array.slice(n+1);
 }
+
+// 51. getElementsUpTo
+// Write a function called "getElementsUpTo".
+// Given an array and a index, "getElementsUpTo", returns an array with all the elements up until, but not including,
+// the element at the given index.
+// Notes:* In order to do this you should be familiar with the 'splice' method.
+
+function getElementsUpTo(array, n) {
+  return array.splice(0, n);
+}
