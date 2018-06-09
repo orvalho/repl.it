@@ -486,3 +486,12 @@ function removeFromFront(arr) {
 function removeFromBackOfNew(arr) {
   return arr.slice(0, arr.length-1);
 }
+
+// 56. removeFromFrontOfNew
+// Write a function called "removeFromFrontOfNew".
+// Given an array, "removeFromFrontOfNew" returns a new array containing all but the first element of the given array.
+// Notes:* You should be familiar with the 'slice' method.
+
+function removeFromFrontOfNew(arr) {
+  return arr.slice(1, arr.length);
+}
