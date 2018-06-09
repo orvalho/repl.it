@@ -477,3 +477,12 @@ function removeFromFront(arr) {
   arr.shift();
   return arr;
 }
+
+// 55. removeFromBackOfNew
+// Write a function called "removeFromBackOfNew".
+// Given an array, "removeFromBackOfNew" returns a new array containing all but the last element of the given array.
+// Notes:* You should be familiar with the 'slice' method.
+
+function removeFromBackOfNew(arr) {
+  return arr.slice(0, arr.length-1);
+}
