@@ -458,3 +458,12 @@ function getAllElementsButFirst(array) {
   array.shift();
   return array;
 }
+
+// 53. getAllElementsButLast
+// Write a function called "getAllElementsButLast".
+// Given an array, "getAllElementsButLast" returns an array with all the elements but the last.
+
+function getAllElementsButLast(array) {
+  array.pop();
+  return array;
+}
