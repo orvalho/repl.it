@@ -449,3 +449,12 @@ function getElementsAfter(array, n) {
 function getElementsUpTo(array, n) {
   return array.splice(0, n);
 }
+
+// 52. getAllElementsButFirst
+// Write a function called "getAllElementsButFirst".
+// Given an array, "getAllElementsButFirst" returns an array with all the elements but the first.
+
+function getAllElementsButFirst(array) {
+  array.shift();
+  return array;
+}
