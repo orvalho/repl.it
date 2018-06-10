@@ -495,3 +495,12 @@ function removeFromBackOfNew(arr) {
 function removeFromFrontOfNew(arr) {
   return arr.slice(1, arr.length);
 }
+
+// 57. getAllLetters
+// Write a function called "getAllLetters".
+// Given a word, "getAllLetters" returns an array containing every character in the word. 
+// Notes:* If given an empty string, it should return an empty array.
+
+function getAllLetters(str) {
+  return str.split("");
+}
