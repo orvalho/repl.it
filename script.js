@@ -513,3 +513,13 @@ function getAllLetters(str) {
 function getAllWords(str) {
   return str.length > 0 ? str.split(" ") : [];
 }
+
+// 59. removeFromBack
+// Write a function called "removeFromBack".
+// Given an array, "removeFromBack" returns the given array with its last element removed.
+// Notes:* You should be familiar with the method 'pop'.
+
+function removeFromBack(arr) {
+  arr.pop();
+  return arr;
+}
